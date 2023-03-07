@@ -1,0 +1,26 @@
+.Button {
+  background-color: #ccc;
+  color: #000;
+  padding: 1rem 3rem;
+  border: 1px solid #ccc;
+  border-radius: 0.75rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.Button.dark {
+  background-color: #000;
+  color: #fff;
+}
+
+.Button:hover {
+  opacity: 80%;
+}
+
+.Button.disabled {
+  pointer-events: none;
+}
+.Button.disabled {
+  opacity: 0.3;
+}
